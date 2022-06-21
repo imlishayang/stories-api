@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+require 'faker'
+
+Story.create(name: Faker::Movies::Lebowski.quote, text: Faker::TvShows::TwinPeaks.quote )
+Story.create(name: Faker::Movies::Lebowski.quote, text: Faker::TvShows::TwinPeaks.quote )
+Story.create(name: Faker::Movies::Lebowski.quote, text: Faker::TvShows::TwinPeaks.quote )
+Story.create(name: Faker::Movies::Lebowski.quote, text: Faker::TvShows::TwinPeaks.quote )
+Story.create(name: Faker::Movies::Lebowski.quote, text: Faker::TvShows::TwinPeaks.quote )
